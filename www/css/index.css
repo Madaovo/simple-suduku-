@@ -1,0 +1,191 @@
+html {
+  font-size: 14px;
+}
+html body {
+  padding: 0;
+  margin: 0;
+  background-color: #eeeeee;
+  font-family: "Consolas", "微软雅黑";
+  user-select: none;
+  max-width: 450px;
+}
+html body > * {
+  max-width: 450px;
+}
+html body .title {
+  padding: 1rem 5%;
+  background-color: #5cb85c;
+  color: white;
+  box-shadow: 0 0.2rem 0.3rem #303030;
+}
+html body .title h1 {
+  margin: 0;
+  padding: 0;
+}
+html body .container {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+html body .container .row > span {
+  display: inline-block;
+  width: 10%;
+  height: 24px;
+  line-height: 24px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #9fb31c;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  background-color: #e1decb;
+}
+html body .container .row > span:first-child {
+  border-left-width: 2px;
+}
+html body .container .row > span:last-child {
+  border-right-width: 2px;
+}
+html body .container .row > span.col_g_left {
+  border-left-width: 1px;
+}
+html body .container .row > span.col_g_right {
+  border-right-width: 1px;
+}
+html body .container .row > span.empty {
+  color: transparent;
+}
+html body .container .row > span.fixed {
+  background-color: #f3f1e2;
+}
+html body .container .row > span.mark1 {
+  background-color: lightgoldenrodyellow;
+}
+html body .container .row > span.mark1.empty {
+  color: lightgoldenrodyellow;
+}
+html body .container .row > span.mark2 {
+  background-color: lightcoral;
+}
+html body .container .row > span.mark2.empty {
+  color: lightcoral;
+}
+html body .container .row > span.error {
+  background-color: lightsalmon;
+}
+html body .container .row > span.error.empty {
+  color: lightsalmon;
+}
+html body .container .row:first-child > span {
+  border-top-width: 2px;
+}
+html body .container .row:last-child > span {
+  border-bottom-width: 2px;
+}
+html body .container .row.row_g_bottom > span {
+  border-bottom-width: 1px;
+}
+html body .popup-num {
+  position: absolute;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-left: 0;
+  padding-top: 0;
+}
+html body .popup-num .row > span {
+  display: inline-block;
+  width: 10%;
+  height: 24px;
+  line-height: 24px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #9fb31c;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  background-color: #e1decb;
+}
+html body .popup-num .row > span:first-child {
+  border-left-width: 2px;
+}
+html body .popup-num .row > span:last-child {
+  border-right-width: 2px;
+}
+html body .popup-num .row > span.col_g_left {
+  border-left-width: 1px;
+}
+html body .popup-num .row > span.col_g_right {
+  border-right-width: 1px;
+}
+html body .popup-num .row > span.empty {
+  color: transparent;
+}
+html body .popup-num .row > span.fixed {
+  background-color: #f3f1e2;
+}
+html body .popup-num .row > span.mark1 {
+  background-color: lightgoldenrodyellow;
+}
+html body .popup-num .row > span.mark1.empty {
+  color: lightgoldenrodyellow;
+}
+html body .popup-num .row > span.mark2 {
+  background-color: lightcoral;
+}
+html body .popup-num .row > span.mark2.empty {
+  color: lightcoral;
+}
+html body .popup-num .row > span.error {
+  background-color: lightsalmon;
+}
+html body .popup-num .row > span.error.empty {
+  color: lightsalmon;
+}
+html body .popup-num .row:first-child > span {
+  border-top-width: 2px;
+}
+html body .popup-num .row:last-child > span {
+  border-bottom-width: 2px;
+}
+html body .popup-num .row.row_g_bottom > span {
+  border-bottom-width: 1px;
+}
+html body .popup-num .row > span {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f3f1e2;
+}
+html .hidden {
+  display: none;
+}
+html .dashboard {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  height: 3rem;
+}
+html .dashboard .buttons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 3rem;
+}
+html .dashboard .buttons button {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  color: #333333;
+  background-color: white;
+}
+/*# sourceMappingURL=index.css.map */

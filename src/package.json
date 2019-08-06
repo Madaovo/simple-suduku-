@@ -1,0 +1,21 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-util": "^3.0.8",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.29"
+  }
+}
